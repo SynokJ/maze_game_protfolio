@@ -1,11 +1,17 @@
+using System.Linq;
 using UnityEngine;
 
 public class ButtonClickAudio : AbstractActionButton
 {
-    [SerializeField] protected AudioClip audioClip;
+    [SerializeField] protected AudioSource audioSource = null;
+    [SerializeField] protected Identifier identifyer = default;
+    [SerializeField] protected AudioLibraryModel libraryModel = null;
+
+    protected AudioLibraryItem currentLibraryitem = default;
 
     protected override void OnClick()
     {
-        Debug.Log("<color=yellow>Button Click Sound</color>");
+        currentLibraryitem = libraryModel.ItemsLibraryContainer.FirstOrDefault(i => i.Identifier.Identity.Trim().Equals(identifyer.Identity.Trim()));
+        if (currentLibraryitem != null) audioSource.PlayOneShot(currentLibraryitem.ItemAudioClip);
     }
 }

@@ -304,7 +304,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24169cbf62596b149a4a1431a25793f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonClickAudio
-  audioClip: {fileID: 8300000, guid: fbf321e6edfee0d4a8731222377563aa, type: 3}
+  audioSource: {fileID: 406071301}
+  identifyer: {fileID: 11400000, guid: 56deddfd26174c844a9ac87dd9322db2, type: 2}
+  libraryModel: {fileID: 11400000, guid: 533ed712e3240ef4b8404a519f9b15a5, type: 2}
 --- !u!1 &406071300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24169cbf62596b149a4a1431a25793f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonClickAudio
-  audioClip: {fileID: 0}
+  audioSource: {fileID: 406071301}
+  identifyer: {fileID: 11400000, guid: 56deddfd26174c844a9ac87dd9322db2, type: 2}
+  libraryModel: {fileID: 11400000, guid: 533ed712e3240ef4b8404a519f9b15a5, type: 2}
 --- !u!1 &1712372508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,7 +1565,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24169cbf62596b149a4a1431a25793f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonClickAudio
-  audioClip: {fileID: 8300000, guid: fbf321e6edfee0d4a8731222377563aa, type: 3}
+  audioSource: {fileID: 406071301}
+  identifyer: {fileID: 11400000, guid: 56deddfd26174c844a9ac87dd9322db2, type: 2}
+  libraryModel: {fileID: 11400000, guid: 533ed712e3240ef4b8404a519f9b15a5, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
