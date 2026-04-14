@@ -6,5 +6,6 @@ public class ButtonClickAudio : AbstractActionButton
 
     protected override void OnClick()
     {
+        Debug.Log("<color=yellow>Button Click Sound</color>");
     }
 }
