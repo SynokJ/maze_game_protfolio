@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f4de03fc3b03f4a9ffab86e8ee6b5e, type: 3}
+  m_Name: GameLevelModel
+  m_EditorClassIdentifier: Assembly-CSharp::GameLevelModel
+  levelCell:
+    size: 3
+  levelWidth: 50
+  levelHeight: 50
+  levelStartPos: {x: 1, y: 1}
+  groundTile: {fileID: 11400000, guid: 153ea1d8ca750b04eb74990e2b4d0299, type: 2}
+  wallTile: {fileID: 11400000, guid: 24897b340bdc5eb4f9b8dbbfd62938cb, type: 2}
